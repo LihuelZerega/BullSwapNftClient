@@ -1,7 +1,13 @@
 import React from "react";
-import { GlobeDemo } from "@/components/LandingPageComponents/GlobeDemo";
 import HeroSection from "@/components/LandingPageComponents/HeroSection";
+import Stats from "@/components/LandingPageComponents/Stats";
 import NavBarLandingpage from "@/components/LandingPageComponents/NavBarLandingpage";
+import LogoClouds from "@/components/LandingPageComponents/LogoClouds";
+import Bullswapcollection from "@/components/LandingPageComponents/Bullswapcollection";
+import WhyChooseUs from "@/components/LandingPageComponents/WhyChooseUs";
+import HowItWorks from "@/components/LandingPageComponents/HowItWorks";
+import BullswapRoadMap from "@/components/LandingPageComponents/BullswapRoadMap";
+import Faq from "@/components/LandingPageComponents/Faq";
 
 export default function Home() {
   return (
@@ -9,9 +15,20 @@ export default function Home() {
       <div className="px-2 sm:px-20 py-4">
         <NavBarLandingpage />
       </div>
-      <HeroSection />
-      <hr className="mx-96" />
-      {/* <GlobeDemo /> */}
+      <div className="px-6 md:px-0">
+        <HeroSection />
+        <Stats />
+        <hr className="mx-96" />
+        <Bullswapcollection />
+        <hr className="mx-96" />
+        {/* <WhyChooseUs /> */}
+        <hr className="mx-96" />
+        <HowItWorks />
+        <hr className="mx-96" />
+        <BullswapRoadMap />
+        <hr className="mx-96" />
+        <Faq />
+      </div>
     </main>
   );
 }
