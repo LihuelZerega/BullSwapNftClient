@@ -414,10 +414,10 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+          <h2 className="text-center text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#38bdf8] to-[#007db3]">
             Big community
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+          <p className="text-center text-sm md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
             Be part of a community of owners and create User generated elements.
           </p>
         </motion.div>

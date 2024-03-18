@@ -8,6 +8,7 @@ import WhyChooseUs from "@/components/LandingPageComponents/WhyChooseUs";
 import HowItWorks from "@/components/LandingPageComponents/HowItWorks";
 import BullswapRoadMap from "@/components/LandingPageComponents/BullswapRoadMap";
 import Faq from "@/components/LandingPageComponents/Faq";
+import Footer from "@/components/LandingPageComponents/Footer";
 
 export default function Home() {
   return (
@@ -21,13 +22,16 @@ export default function Home() {
         <hr className="mx-96" />
         <Bullswapcollection />
         <hr className="mx-96" />
-        {/* <WhyChooseUs /> */}
+        <WhyChooseUs />
         <hr className="mx-96" />
         <HowItWorks />
         <hr className="mx-96" />
         <BullswapRoadMap />
         <hr className="mx-96" />
         <Faq />
+      </div>
+      <div>
+        <Footer />
       </div>
     </main>
   );
