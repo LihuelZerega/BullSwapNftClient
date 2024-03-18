@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col md:flex-row justify-between w-full px-3 sm:px-24">
+    <div className="flex flex-col md:flex-row items-center justify-between w-full px-3 sm:px-24 2xl:px-72">
       <section className="flex flex-col items-center sm:items-start">
-        <div className="mt-12 sm:mt-20 text-center sm:text-left">
+        <div className="mt-12 sm:mt-20 md:mt-0 text-center sm:text-left">
           <h1 className="text-5xl lg:text-7xl font-bold relative text-gray-100">
             Discover, Collect
           </h1>
