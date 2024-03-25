@@ -3,36 +3,40 @@ import React from "react";
 import HeroSection from "@/components/LandingPageComponents/HeroSection";
 import Stats from "@/components/LandingPageComponents/Stats";
 import NavBarLandingpage from "@/components/LandingPageComponents/NavBarLandingpage";
+import HeroSectionLandingPage from "@/components/LandingPageComponents/HeroSectionLandingPage";
+import { HeroScrollDemo } from "@/components/LandingPageComponents/ContainerScrollAnimation";
+import CtaSection from "@/components/LandingPageComponents/CtaSection";
 import Bullswapcollection from "@/components/LandingPageComponents/Bullswapcollection";
 import WhyChooseUs from "@/components/LandingPageComponents/WhyChooseUs";
 import HowItWorks from "@/components/LandingPageComponents/HowItWorks";
 import BullswapRoadMap from "@/components/LandingPageComponents/BullswapRoadMap";
 import Faq from "@/components/LandingPageComponents/Faq";
 import Footer from "@/components/LandingPageComponents/Footer";
+import { BentoGridDemo } from "@/components/LandingPageComponents/BentoGrid";
+import LogoClouds from "@/components/LandingPageComponents/LogoClouds";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <div className="py-3 px-6 border-b ">
+    <main>
+      <div className="py-5 border-b bg-[#1a1a1a]">
         <NavBarLandingpage />
       </div>
-      <div className="px-6 md:px-0 bg-neutral-950">
-        <HeroSection />
-        <Stats />
-        <hr className="mx-96" />
-        <Bullswapcollection />
-        <hr className="mx-96" />
+      <div className="min-h-screen bg-neutral-950 px-6 sm:px-24">
+        <div>
+          <HeroSectionLandingPage />
+          <Stats />
+          <LogoClouds />
+        </div>
+        <HeroScrollDemo />
+        <BentoGridDemo />
+        <CtaSection />
+        {/* <Bullswapcollection /> */}
         <WhyChooseUs />
-        <hr className="mx-96" />
-        <HowItWorks />
-        <hr className="mx-96" />
+        {/* <HowItWorks /> */}
         <BullswapRoadMap />
-        <hr className="mx-96" />
         <Faq />
       </div>
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </main>
   );
 }

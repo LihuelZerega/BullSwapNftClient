@@ -8,8 +8,8 @@ import { FaUserLarge, FaGoogle, FaApple } from "react-icons/fa6";
 function page() {
   return (
     <main className="min-h-screen bg-neutral-950 select-none">
-      <div className="flex flex-row py-4 px-6 border-b border-white">
-        <Link href="/" className="cursor-pointer">
+      <div className="border-b border-white bg-black">
+        <Link href="/" className="cursor-pointer flex flex-row py-4 px-6">
           <Image src={BullSwapNftLogo} width={32} height={32} alt="Logo" />
           <div>
             <p className="font-bold text-inherit">BullSwap</p>

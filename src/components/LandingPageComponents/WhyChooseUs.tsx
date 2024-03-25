@@ -1,5 +1,4 @@
 import React from "react";
-import { GlobeDemo } from "@/components/LandingPageComponents/GlobeDemo";
 import {
   MdOutlineCollectionsBookmark,
   MdCheckCircleOutline,
@@ -63,9 +62,6 @@ function WhyChooseUs() {
             </p>
           </div>
         </div>
-      </section>
-      <section className="hidden md:block">
-        <GlobeDemo />
       </section>
     </div>
   );
