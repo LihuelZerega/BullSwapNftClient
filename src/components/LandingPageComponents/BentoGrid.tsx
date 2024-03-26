@@ -12,7 +12,7 @@ import {
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto">
+    <BentoGrid className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

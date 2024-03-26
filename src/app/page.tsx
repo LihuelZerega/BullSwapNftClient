@@ -27,11 +27,11 @@ export default function Home() {
           <Stats />
           <LogoClouds />
         </div>
-        <HeroScrollDemo />
+        {/* <HeroScrollDemo /> */}
+        <WhyChooseUs />
         <BentoGridDemo />
         <CtaSection />
         {/* <Bullswapcollection /> */}
-        <WhyChooseUs />
         {/* <HowItWorks /> */}
         <BullswapRoadMap />
         <Faq />

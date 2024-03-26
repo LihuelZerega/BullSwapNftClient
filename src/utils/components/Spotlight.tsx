@@ -10,7 +10,7 @@ function Spotlight({
     <div className="relative">
       {children}
       <motion.div
-        className="absolute inset-0 bg-black rounded-lg pointer-events-none"
+        className="absolute inset-0 rounded-lg pointer-events-none"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.25 }}
         transition={{
